@@ -1,0 +1,12 @@
+# 排除子文件夹
+AM config backup/
+SwitchHistoryData/
+
+# 排除其他脚本文件
+AM IP list.txt
+AMAP_inter_trans_state.ps1
+AMInterfaceStateChangeReport.ps1
+SwitchInterfaceErrors.ps1
+SwitchInterfaceErrorsChangeState.ps1
+SwitchInterfaceLinkState.ps1
+SwitchInterfaceLinkStateChange.ps1
